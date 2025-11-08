@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav three" onclick="toggleActive('three')">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="nav four" onclick="toggleActive('four')">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="nav six active" onclick="toggleActive('six')">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+    <section class="cards">
+      <div class="flip-card" id="first">
+        <div class="flip-card-inner" id="inner">
+          <div class="flip-card-front">
+            <div class="english-word">soft</div>
+            <div class="transcription">[sôft] -
+              <span class="pronunciation">софт</span>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p class="translated-word">мягкий</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" id="second">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="english-word">unique</div>
+            <div class="transcription">[ˌyo͞oˈnēk] -
+              <span class="pronunciation">юник</span>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p class="translated-word">уникальный</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" id="third">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="english-word">raw</div>
+            <div class="transcription">[rô] -
+              <span class="pronunciation">роу</span>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p class="translated-word">сырой</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" id="fourth">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="english-word">spectacular</div>
+            <div class="transcription">[spekˈtakyələr] -
+              <span class="pronunciation">спек-та-кью-лёр</span>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p class="translated-word">зрелищный</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" id="fifth">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="english-word">implement</div>
+            <div class="transcription">[ˈɪmplɪment] -
+              <span class="pronunciation">им-пли-мэнт</span>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p class="translated-word">осуществлять</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" id="sixth">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="english-word">train</div>
+            <div class="transcription">[treɪn] -
+              <span class="pronunciation">трэин</span>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <p class="translated-word">поезд</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="glossary">
+      <div>Title</div>
+      <div>Content</div>
+    </section>
+  </div>
+  <script async src="./main.js"></script>
+</body>
+
+</html>
